@@ -73,7 +73,13 @@ input:hover,
   position: fixed;
   right: 0;
   top: 0;
-  margin: 1%;
+  padding: 1%;
+  border: solid black;
+  border-radius: 0 0 0 30px;
+  background-color: white;
+  box-shadow: -5px 5px 14px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 5px 14px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 5px 14px 1px rgba(0, 0, 0, 0.75);
 }
 
 .website {
